@@ -55,12 +55,12 @@ namespace DataAccessLayer.TestModule
                             StudentID = dataReader.GetInt32("StudentID"),
                             FirstName = dataReader.GetString("FirstName"),
                             LastName = dataReader.GetString("LastName"),
-                            ContactPerson = dataReader.GetString("ContactPerson"),
-                            ContactNo = dataReader.GetString("ContactNo"),
-                            EmailAddress = dataReader.GetString("EmailAddress"),
-                            Dateofbirth = dataReader.GetDateTime("Dateofbirth"),
-                            ClassroomID = dataReader.GetInt32("ClassroomID"),
-                            ClassroomName = dataReader.GetString("ClassroomName")
+                            //ContactPerson = dataReader.GetString("ContactPerson"),
+                            //ContactNo = dataReader.GetString("ContactNo"),
+                            //EmailAddress = dataReader.GetString("EmailAddress"),
+                            //Dateofbirth = dataReader.GetDateTime("Dateofbirth"),
+                            //ClassroomID = dataReader.GetInt32("ClassroomID"),
+                            //ClassroomName = dataReader.GetString("ClassroomName")
                         });
                     }
                     reader.Close();
